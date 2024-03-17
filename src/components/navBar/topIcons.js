@@ -30,11 +30,6 @@ export default function topIcons(props) {
             </svg>
           }
         >
-          {/* <img
-            className="ytLogo"
-            alt="youtube logo"
-            src={youtubeLogo}
-          ></img> */}
         </ActionButton>
       </div>
 

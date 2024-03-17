@@ -1,0 +1,20 @@
+.sectionTop {
+  display: flex;
+  justify-content: space-between;
+}
+.GroupedEla {
+  display: flex;
+  gap: 20px;
+}
+.hambugerMenu {
+  width: 100%;
+}
+.ytLogo {
+  width: 100%;
+}
+.searchBar {
+  background-color: black;
+  border-radius: 25px;
+  width: 45rem;
+  padding: 10px;
+}

@@ -1,14 +1,17 @@
 import "./App.css";
 import SideCard from "../src/components/sideCard/sideCardMain";
-// import "./components/actions";
-// import "./components/icons";
+import "./components/actions";
+import "./components/icons";
 import placeHolderImg from "../src/img/placeHolderImg.jpg";
 import placeHolderImgtwo from "../src/img/secondImg.jpg";
 import placeHolderImgthree from "../src/img/thirdimg.jpg";
+import TopIcons from "./components/navBar/topIcons";
+import MenuImg from "../src/img/menuImg.png";
 
 function App() {
   return (
-    <>
+    <section className="section">
+      <TopIcons imgPath={MenuImg}></TopIcons>
       <SideCard
         videoTitle="Epic Music"
         YouTuberName="Pure Gold"
@@ -30,7 +33,7 @@ function App() {
         TimePosted="1 Year Ago"
         imgPath={placeHolderImgthree}
       ></SideCard>
-    </>
+    </section>
   );
 }
 

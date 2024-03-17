@@ -1,3 +1,10 @@
-.infoTextSection{
-    background-color: green;
+.infoTextSection {
+    padding:0 5px;
+}
+.vidData {
+  color: #a5a5a4;
+}
+.vidTitle {
+  color: #dcdcdc;
+    font-weight: 600;
 }

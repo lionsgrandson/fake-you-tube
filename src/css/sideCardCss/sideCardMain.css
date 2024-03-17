@@ -1,7 +1,13 @@
 .sectionCard {
-  width: 20%;
+  width: 30%;
   display: flex;
+  background-color: #0f0e0e;
+  border-radius: 20px;
+  margin: 10px;
 }
 .preiviewIMG {
-width:50%;
+  width: 50%;
+  padding: 5px;
+  border-radius: 20px;
+  margin-right: 10px;
 }

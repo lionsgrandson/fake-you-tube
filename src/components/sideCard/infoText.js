@@ -1,11 +1,10 @@
-import '../../css/sideCardCss/infoText.css'
-export default function infoText() {
+import "../../css/sideCardCss/infoText.css";
+export default function infoText(props) {
   return (
-    <>
-    <p>Epic Music</p>
-    <p>Pure Gold</p>
-    <p>6M</p>
-    <p>3 years ago</p>
-    </>
+    <section className="infoTextSection">
+      <p>{props.videoTitle}</p>
+      <p>{props.YouTuberName}</p>
+      <p>{props.ViewCount}</p>
+    </section>
   );
 }

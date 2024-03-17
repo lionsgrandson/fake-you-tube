@@ -1,6 +1,7 @@
 .sectionCard {
-  background-color: red;
+  width: 20%;
+  display: flex;
 }
 .preiviewIMG {
-width: 20%;
+width:50%;
 }

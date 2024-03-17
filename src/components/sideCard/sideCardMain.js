@@ -1,15 +1,20 @@
 import InfoText from "./infoText";
 import "../../css/sideCardCss/sideCardMain.css";
-import placeHolderImg from "../../img/placeHolderImg.jpg";
-export default function sideCardMain() {
+
+export default function sideCardMain(props) {
   return (
     <section className="sectionCard">
       <img
         alt="placeholder img"
-        src={placeHolderImg}
+        src={props.imgPath}
         className="preiviewIMG"
       ></img>
-      <InfoText></InfoText>
+      <InfoText
+        videoTitle={props.videoTitle}
+        YouTuberName={props.YouTuberName}
+        ViewCount={props.ViewCount}
+        TimePosted={props.TimePosted}
+      ></InfoText>
     </section>
   );
 }

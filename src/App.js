@@ -8,6 +8,7 @@ import placeHolderImgthree from "../src/img/thirdimg.jpg";
 import TopIcons from "./components/navBar/topIcons";
 import MenuImg from "../src/img/menuImg.png";
 import ReactPlayer from "react-player";
+import VideoExtInfo from "./components/videoExtInfo/videoExtInfo";
 function App() {
   return (
     <section className="section">
@@ -43,9 +44,8 @@ function App() {
           width="100%"
           height="100%"
         />
-        <h1>PlaceHolder</h1>
-        
       </div>
+      <VideoExtInfo></VideoExtInfo>
     </section>
   );
 }

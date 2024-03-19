@@ -1,13 +1,14 @@
+import '../../css/navBar/actionButton.css'
 export default function actionButton(props) {
   return (
     <>
-      <a
+      <button
         className="actionButton"
         href="#index"
       >
-        {props.title}
         {props.icon}
-      </a>
+        {props.title}
+      </button>
     </>
   );
 }

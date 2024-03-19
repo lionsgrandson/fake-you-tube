@@ -1,3 +1,6 @@
-.actionButton{
-    background-color: blue;
+.actionButton {
+  /* background-color: blue; */
+  text-align: baseline;
+  font-size: large;
+  border-radius: 12%;
 }

@@ -1,0 +1,10 @@
+.channleInfoSection {
+display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.chanIMG{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
